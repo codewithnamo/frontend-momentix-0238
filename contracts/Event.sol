@@ -57,6 +57,13 @@ contract Event is Initializable, ERC721Upgradeable, AccessControlUpgradeable {
         super._beforeTokenTransfer(from, to, tokenId);
     }
 
+    /**
+     * @notice The IPFS URI of contract-level metadata.
+     */
+    function contractURI() external view returns (string memory) {
+        return string(abi.encodePacked(baseURI, "contract.json"));
+    }
+
     // The following functions are overrides required by Solidity.
 
     function supportsInterface(bytes4 interfaceId)
