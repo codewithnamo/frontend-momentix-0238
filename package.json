@@ -1,8 +1,31 @@
 {
   "devDependencies": {
-    "hardhat": "^2.10.1"
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@nomiclabs/hardhat-etherscan": "^2.1.8",
+    "ethers": "^5.5.2",
+    "hardhat": "^2.8.0"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.7.2"
-  }
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^4.3.2",
+    "@openzeppelin/contracts-upgradeable": "^4.3.2",
+    "dotenv": "^10.0.0"
+  },
+  "name": "momentix",
+  "description": "NFT tickets with moments built in",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markcarey/momentix.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markcarey/momentix/issues"
+  },
+  "homepage": "https://github.com/markcarey/momentix#readme"
 }
