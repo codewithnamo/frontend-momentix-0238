@@ -1,8 +1,9 @@
 import Head from "next/head";
 import Header from "../components/Header";
+import Main from "../components/Main";
 
 const styles = {
-  container: `h-full w-full flex bg-[#fff]`,
+  container: `h-full w-full bg-[#fff]`,
 };
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
       {/* Navbar */}
       <Header />
       {/* Main */}
-      <h2>Main Here</h2>
+      <Main />
     </div>
   );
 }
