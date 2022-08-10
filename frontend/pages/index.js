@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "../components/Header";
 
 const styles = {
   container: `h-full w-full flex bg-[#fff]`,
@@ -12,7 +13,7 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       {/* Navbar */}
-      <h2>Navbar here</h2>
+      <Header />
       {/* Main */}
       <h2>Main Here</h2>
     </div>
